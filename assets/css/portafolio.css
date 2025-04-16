@@ -1,0 +1,18 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  

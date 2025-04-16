@@ -1,0 +1,71 @@
+body {
+    background-color: #f4f4f4;
+  }
+  
+  .perfil {
+    background-color: #0d6efd;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    height: 100%;
+  }
+  
+  .foto-perfil {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .perfil h3 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .perfil p {
+    margin: 5px 0;
+  }
+  
+  .seccion {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .seccion h3 {
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  /* Línea divisoria minimalista entre columnas */
+  .border-end {
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Badge estilo claro */
+  .badge {
+    margin: 3px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-size: 0.85rem;
+  }
+  
+  /* Ajustes responsivos */
+  @media (max-width: 991.98px) {
+    .border-end {
+      border-right: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  
